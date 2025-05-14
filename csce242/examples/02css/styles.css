@@ -1,0 +1,73 @@
+/* Structure */
+body {
+    background: url(images/background.jpg);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#content {
+    background-color:cyan;
+    width:80%;
+    margin:auto;       /* center */
+    border: 1px solid gray;
+    padding:5px;
+    /* padding: 10px 20px; */
+    /* padding: 20px 40px 10px 5px */
+    /*padding-left:20px; */
+}
+
+header, footer { 
+    background:#abc;
+    border:1px solid gray;
+    padding:5px;
+    margin:10px 0;     /*10px top and bottom, 0px left and right */
+}
+
+#main-content {
+    padding:5px;
+    border:1px solid #abc;
+    background-color: ivory;
+}
+
+/* Picture section */
+.giraffe-pic {
+    background-color:greenyellow;
+    text-align: center;
+    width: 50%;
+    padding:20px 5px 10px;
+    border-radius: 5px;
+    margin:10px auto;
+    color:gray;
+    box-shadow:10px 10px black;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li {
+    display:inline-block;
+}
+
+#main-nav li {
+    display:inline-block;
+}
+
+#main-nav a {
+    text-decoration: none;
+    background-color:azure;
+    color:blueviolet;
+    padding:5px;
+    border-radius: 5px;            /* Rounded corners */
+}
+
+#main-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Typography */
+header h1, header h2, footer p {
+    text-align:center;
+}
