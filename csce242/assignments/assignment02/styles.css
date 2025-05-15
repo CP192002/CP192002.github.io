@@ -1,0 +1,68 @@
+/* Structure */
+body {
+    background:url(images/realestate.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content {
+    background-color: black;
+    width:80%;
+    margin:auto;
+    padding:10px;
+}
+
+table {
+    background-color:antiquewhite;
+    border:3px solid gray;
+    color:brown;
+    border-collapse: collapse;
+}
+
+td, th {
+    border:3px solid gray;
+    padding:5px;
+}
+
+/* Pictures */
+.housing-pic {
+    background-color:beige;
+    text-align: center;
+    width:25%;
+    padding:10px 5px 5px;
+    border-radius: 10px;
+    margin:10px auto;
+    box-shadow: 10px 10px gray;
+}
+
+/* Navigation */
+.main-nav a{
+    text-decoration: none;
+    color:white;
+    background-color: gray;
+    padding:5px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+}
+
+nav li {
+    display:inline-block;
+}
+
+.main-nav a:hover {
+   background-color: white;
+   color:gold; 
+}
+
+
+/* Typography */
+#content h2, h1 {
+    color:gold;
+}
+
+#main-content {
+    color: white;
+}

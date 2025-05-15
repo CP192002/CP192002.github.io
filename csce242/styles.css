@@ -1,3 +1,25 @@
+/* Structure */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:aquamarine;
+}
+
+#content a {
+    text-decoration: none;
+    color:blueviolet;
+}
+
+
+
+/* Typography */
 h1 {
-    color:green;
+    color:darkblue;
+}
+
+#content h2 {
+    color:blue;
+}
+
+#content h3, p {
+    color:grey;
 }
